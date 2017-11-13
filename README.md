@@ -5,8 +5,9 @@
 
 Steps to follow to run this application:
 
-- Open the terminal ```cd lagom-persistent-entity-demo```.
+- Open the terminal.
 - Clone the project ```git clone git@github.com:DivyaDua/lagom-persistent-entity-demo.git```.
+-```cd lagom-persistent-entity-demo```.
 - Execute ```sbt clean compile```.
 - Run the cassandra on your localhost, since embedded cassandra is being disabled here.
 - Run the application using ```sbt runAll```.
